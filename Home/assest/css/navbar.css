@@ -1,0 +1,82 @@
+@import url(../css/reset.css);
+@import url(../css/bootstrap.css);
+@import url(../css/font-awesome.min.css);
+a {
+  text-decoration: none; }
+
+:focus {
+  outline: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+li {
+  float: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  display: inline; }
+
+body {
+  font-family: 'Karla' , sans-serif;
+  color: #93a1a7;
+  letter-spacing: 1px; }
+
+/* header */
+header {
+  background: #E5EEF0; }
+
+.first {
+  margin-top: -10px;
+  height: 50px;
+  width: 100%; }
+  .first h1 {
+    color: #93a1a7;
+    font-size: 13px;
+    display: inline-block; }
+  .first ul li:last-child {
+    border-right: 1px solid #d8e3e6;
+    float: right; }
+  .first ul li:nth-child(2) {
+    float: right; }
+  .first ul li a {
+    display: block;
+    line-height: 50px;
+    height: 50px;
+    padding: 0 20px;
+    color: #93a1a7; }
+    .first ul li a .fa-mobile {
+      font-size: 25px; }
+    .first ul li a .fa-envelope-o {
+      font-size: 20px; }
+    .first ul li a h3 {
+      font-size: 14px; }
+    .first ul li a h4 {
+      font-size: 13px; }
+    .first ul li a:hover {
+      background: lightgray; }
+
+/* navbar */
+.nav {
+  background: white; }
+  .nav div {
+    float: left;
+    padding: 25px 0 !important; }
+  .nav div:hover {
+    opacity: .8; }
+  .nav ul {
+    margin-left: 330px; }
+    .nav ul li {
+      padding: 32px 0 22px 0px; }
+    .nav ul:last-child {
+      padding-right: 0; }
+    .nav ul a {
+      color: #93a1a7;
+      padding: 10px 20px;
+      font-size: 14.5px; }
+      .nav ul a:hover {
+        color: white;
+        background: #29c2e1;
+        transition: .5s;
+        border-radius: 50px 50px; }
+
+/*# sourceMappingURL=navbar.css.map */
